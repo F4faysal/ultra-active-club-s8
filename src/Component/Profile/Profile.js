@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , toast } from "react";
 import "./Profile.css";
 import img from "../../img/faysal-pro-img.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,6 +11,10 @@ const Profile = ({timeAdd}) => {
         setSeconds(time)
     }
 
+    const notify = () => toast("Fetching the Model Do not Close", {
+        position: toast.POSITION.TOP_CENTER,
+        autoClose: 60000});
+
   return (
     <div className="profile-continer">
       <PeofileInfo></PeofileInfo>
@@ -19,7 +23,7 @@ const Profile = ({timeAdd}) => {
       <h4>Exercise Details</h4>
       <ExerciseDetails times = {timeAdd}></ExerciseDetails>
       <BreakTime seconds={seconds} ></BreakTime>
-      <button className="batton">Activity Completed</button>
+      <button onClick={notify} className="batton">Activity Completed</button>
     </div>
   );
 };
