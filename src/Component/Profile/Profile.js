@@ -2,15 +2,14 @@ import React from "react";
 import "./Profile.css";
 import img from "../../img/faysal-pro-img.jpg";
 
-const Profile = (props) => {
-    
+const Profile = ({timeAdd}) => {
   return (
     <div className="profile-continer">
       <PeofileInfo></PeofileInfo>
       <PeofileAwaite></PeofileAwaite>
       <AddABreak></AddABreak>
       <h4>Exercise Details</h4>
-      <ExerciseDetails></ExerciseDetails>
+      <ExerciseDetails times = {timeAdd}></ExerciseDetails>
       <BreakTime></BreakTime>
       <button className="batton">Activity Completed</button>
     </div>
@@ -81,12 +80,15 @@ const AddABreak = () => {
   );
 };
 
-const ExerciseDetails = () => {
+const ExerciseDetails = ({times}) => {
+    let totalTime =0;
+    for (const time of times){
+        totalTime = totalTime +  +time.time ;
+      }
     return (
       <div className="exercise-time">
         <small>Exercise Details</small>
-        <div>
-        </div>
+        <div> <small>{totalTime} seconds</small>   </div>
       </div>
     );
   };

@@ -16,7 +16,7 @@ const ActivityCard = ({acitiList , handelar }) => {
         <p>For Age : <strong>{age} </strong></p>
       </div>
       <div>
-        <button onClick={() => handelar(time)} className="prodact-btn"> Add to List </button>
+        <button onClick={() => handelar(acitiList)} className="prodact-btn"> Add to List </button>
       </div>
     </div>
   );

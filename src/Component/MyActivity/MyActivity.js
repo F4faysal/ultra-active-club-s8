@@ -11,13 +11,11 @@ const MyActivity = () => {
         .then(data => setActivity(data))
     },[])
 
-    const [timeAdd , setTimeAdd] = useState(0)
+    const [timeAdd , setTimeAdd] = useState([])
    
-    const handelar = (time) => {
-      let totalTime = 0;
-      totalTime = totalTime+time
-      setTimeAdd(totalTime)
-        console.log(timeAdd)
+    const handelar = (selectedCours) => {
+      const newSelecte = [...timeAdd ,selectedCours ]
+      setTimeAdd(newSelecte);
     }
     
     return (
@@ -28,7 +26,7 @@ const MyActivity = () => {
                }
             </div>
             <div className='peofile-continer'>
-                <Profile ></Profile>
+                <Profile timeAdd={timeAdd}  ></Profile>
             </div>
         </div>
     );
