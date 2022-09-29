@@ -1,9 +1,9 @@
 import React from "react";
 import "./ActivityCard.css";
 
-const ActivityCard = (props) => {
-    const {name , img ,age , time , info} = props.acitiList
-    console.log(props)
+const ActivityCard = ({acitiList , handelar }) => {
+    const {name , img , age , time , info , } = acitiList
+    // console.log(acitiList)
   return (
     <div className="prodact-continer">
       <img src={img} alt=""></img>
@@ -16,7 +16,7 @@ const ActivityCard = (props) => {
         <p>For Age : <strong>{age} </strong></p>
       </div>
       <div>
-        <button  className="prodact-btn"> Add to List </button>
+        <button onClick={() => handelar(time)} className="prodact-btn"> Add to List </button>
       </div>
     </div>
   );

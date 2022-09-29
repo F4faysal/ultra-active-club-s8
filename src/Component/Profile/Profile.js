@@ -2,13 +2,17 @@ import React from "react";
 import "./Profile.css";
 import img from "../../img/faysal-pro-img.jpg";
 
-const Profile = () => {
+const Profile = (props) => {
+    
   return (
     <div className="profile-continer">
       <PeofileInfo></PeofileInfo>
       <PeofileAwaite></PeofileAwaite>
       <AddABreak></AddABreak>
+      <h4>Exercise Details</h4>
       <ExerciseDetails></ExerciseDetails>
+      <BreakTime></BreakTime>
+      <button className="batton">Activity Completed</button>
     </div>
   );
 };
@@ -79,11 +83,18 @@ const AddABreak = () => {
 
 const ExerciseDetails = () => {
     return (
-      <div>
-        <h4>Exercise Details</h4>
-        <div className="profile-info">
-          
-          
+      <div className="exercise-time">
+        <small>Exercise Details</small>
+        <div>
+        </div>
+      </div>
+    );
+  };
+const BreakTime = () => {
+    return (
+      <div className="exercise-time">
+        <small>Break Time</small>
+        <div>
         </div>
       </div>
     );

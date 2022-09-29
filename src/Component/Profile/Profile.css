@@ -10,8 +10,8 @@
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 20px;
-
 }
+
 .profile-info h3 {
     margin: 0;
 }
@@ -34,4 +34,29 @@
     display: flex;
     justify-content: center ;
     align-items: center;
+}
+
+.exercise-time{
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.batton{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(116, 216, 116);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+
+}
+
+.batton:hover{
+background-color: green;
 }
