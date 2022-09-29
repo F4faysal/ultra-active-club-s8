@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Profile.css";
 import img from "../../img/faysal-pro-img.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationPin} from '@fortawesome/free-solid-svg-icons'
 
 const Profile = ({timeAdd}) => {
 
@@ -28,7 +30,7 @@ const PeofileInfo = () => {
       <div className="name-location">
         <h3>Faysal Hossain</h3>
         <p>
-          <small>Ishwardi , Pabna</small>
+          <small><FontAwesomeIcon icon={faLocationPin} /> Ishwardi , Pabna</small>
         </p>
       </div>
     </div>
@@ -100,6 +102,11 @@ const ExerciseDetails = ({times}) => {
     );
   };
 const BreakTime = ({seconds}) => {
+    let a = '1st'
+    const b = {};
+    b[a] = seconds
+    localStorage.setItem('Total' , JSON.stringify(b))
+
     return (
       <div className="exercise-time">
         <small>Break Time</small>

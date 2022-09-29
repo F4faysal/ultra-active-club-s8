@@ -11,3 +11,23 @@
 .peofile-continer {
   padding: 20px;
 }
+.qusctin{
+
+  width: 300px;
+  height: 250px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+ padding: 5px;
+ line-height: 25px;
+
+}
+
+@media screen and (max-width:1100px){
+
+  .prodacts-continer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ 
+  }
+
+}
