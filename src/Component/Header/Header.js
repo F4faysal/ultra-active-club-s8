@@ -9,8 +9,7 @@ const Header = () => {
             <img src={img}  alt = '' />
             <div>
             <a href="/home">Home</a>
-            <a href="/home">Menu</a>
-            <a href="/home">Cart</a>
+            <a href="/home">Activity</a>
             <a href="/home">About Us</a>
             </div>
         </nav>

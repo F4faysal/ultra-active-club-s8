@@ -1,16 +1,13 @@
-.shop-continer{
-    display: grid;
-    grid-template-columns: 4fr 1fr  ;
-
-
+.shop-continer {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
-.prodacts-continer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 45px;
-    margin-top: 80px;
+.prodacts-continer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin-top: 80px;
 }
-.carts-continer{
-  
-
+.peofile-continer {
+  padding: 20px;
 }

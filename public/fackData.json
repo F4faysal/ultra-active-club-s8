@@ -1,62 +1,50 @@
 [
   {
     "id": "101",
-    "name": "ULTRABOOST 22 SHOES",
-    "time" : "30",
-    "age" : "18 - 25",
-    "info" : "Showing up to the gym for the first time can be a little bit discouraging. There’s a bunch of dudes looking like vintage Lou Ferrigno, hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
+    "name": "Dumbbells",
+    "time": "30",
+    "age": "18 - 25",
+    "info": "Showing up to the gym for the first time can be a little bit discouraging. ",
     "img": "https://res.cloudinary.com/df6gq7z9w/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1664440215/img/2_lmvikc.jpg"
-  
-
   },
   {
     "id": "102",
-    "name": "LUNAR NEW YEAR ULTRABOOST DNA SHOES",
-    "time" : "30",
-    "age" : "18 - 30",
-    "info" : "Showing up to the gym for the first time can be a little bit discouraging. There’s a bunch of dudes looking like vintage Lou Ferrigno, hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
-
+    "name": "Bar Clamps",
+    "time": "30",
+    "age": "18 - 30",
+    "info": "There’s a bunch of dudes looking like vintage Lou Ferrigno  ",
     "img": "https://res.cloudinary.com/df6gq7z9w/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1664440214/img/3_g81mee.jpg"
- 
   },
   {
     "id": "103",
-    "name": "SUPERNOVA SHOES",
-    "time" : "30",
-    "age" : "18 - 25",
-    "info" : "Showing up to the gym for the first time can be a little bit discouraging. There’s a bunch of dudes looking like vintage Lou Ferrigno, hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
-
+    "name": "Cable Machine",
+    "time": "30",
+    "age": "18 - 25",
+    "info": "Hauling around more weight than you’ve ever imagined",
     "img": "https://res.cloudinary.com/df6gq7z9w/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1664440215/img/6_ebspzw.jpg"
-
   },
   {
     "id": "104",
-    "name": "LITE RACER ADAPT 3.0 SHOES",
-    "time" : "30",
-    "age" : "18 - 25",
-    "info" : "Showing up to the gym for the first time can be a little bit discouraging. There’s a bunch of dudes looking like vintage Lou Ferrigno, hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
-
+    "name": "Kettlebells",
+    "time": "30",
+    "age": "18 - 25",
+    "info": "All you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
     "img": "https://res.cloudinary.com/df6gq7z9w/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1664440200/img/1_stxwrn.jpg"
-
   },
   {
     "id": "105",
-    "name": "4DFWD SHOES",
-    "time" : "30",
-    "age" : "20 - 25",
-    "info" : "Showing up to the gym for the first time can be a little bit discouraging. There’s a bunch of dudes looking like vintage Lou Ferrigno, hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
-
+    "name": "Olympic barbell",
+    "time": "30",
+    "age": "20 - 25",
+    "info": "Showing up to the gym for the first time can be a little bit discouraging.",
     "img": "https://res.cloudinary.com/df6gq7z9w/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1664440215/img/5_mq4hme.png"
-
   },
   {
     "id": "106",
-    "time" : "30",
-    "age" : "20 - 30",
-    "name": "KAPTIR 2.0 SHOES",
-    "info" : "Showing up to the gym for the first time can be a little bit discouraging. There’s a bunch of dudes looking like vintage Lou Ferrigno, hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go before you’ll get anywhere close to that jacked.",
-
+    "time": "30",
+    "age": "20 - 30",
+    "name": "Resistance Bands",
+    "info": "hauling around more weight than you’ve ever imagined, and all you can think about is how far you have to go ",
     "img": "https://res.cloudinary.com/df6gq7z9w/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1664440215/img/4_tfnxkv.jpg"
-
   }
 ]
