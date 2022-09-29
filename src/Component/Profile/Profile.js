@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Profile.css";
 import img from "../../img/faysal-pro-img.jpg";
 
 const Profile = ({timeAdd}) => {
+
+    const [seconds , setSeconds] = useState([])
+    const onClickDiv = (time) =>{
+        setSeconds(time)
+    }
+
   return (
     <div className="profile-continer">
       <PeofileInfo></PeofileInfo>
       <PeofileAwaite></PeofileAwaite>
-      <AddABreak></AddABreak>
+      <AddABreak onClickHandel = {onClickDiv}></AddABreak>
       <h4>Exercise Details</h4>
       <ExerciseDetails times = {timeAdd}></ExerciseDetails>
-      <BreakTime></BreakTime>
+      <BreakTime seconds={seconds} ></BreakTime>
       <button className="batton">Activity Completed</button>
     </div>
   );
@@ -55,26 +61,27 @@ const PeofileAwaite = () => {
   );
 };
 
-const AddABreak = () => {
+const AddABreak = ({onClickHandel}) => {
+
   return (
     <div>
       <h4>Add A Break</h4>
       <div className="profile-info">
-        <div className="time">
+        <button onClick={() => onClickHandel('10')} className="time">
           <small>10s</small>
-        </div>
-        <div className="time">
+        </button>
+        <button onClick={() => onClickHandel('20')} className="time">
         <small>20s</small>
-        </div>
-        <div className="time">
+        </button>
+        <button onClick={() => onClickHandel('30')} className="time">
         <small>30s</small>
-        </div>
-        <div className="time">
+        </button>
+        <button onClick={() => onClickHandel('40')}className="time">
         <small>40s</small>
-        </div>
-        <div className="time">
+        </button>
+        <button onClick={() => onClickHandel('50')}className="time">
         <small>50s</small>
-        </div>
+        </button>
       </div>
     </div>
   );
@@ -92,11 +99,12 @@ const ExerciseDetails = ({times}) => {
       </div>
     );
   };
-const BreakTime = () => {
+const BreakTime = ({seconds}) => {
     return (
       <div className="exercise-time">
         <small>Break Time</small>
         <div>
+            <small>{seconds} seconds</small>
         </div>
       </div>
     );

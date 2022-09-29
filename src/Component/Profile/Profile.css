@@ -34,7 +34,10 @@
     display: flex;
     justify-content: center ;
     align-items: center;
+    border: none;
 }
+.time:focus {background-color: seagreen;
+color: #fff;}
 
 .exercise-time{
     width: 100%;
