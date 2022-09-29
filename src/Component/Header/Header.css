@@ -1,0 +1,21 @@
+.hedar-continar{
+    height: 80px;
+    background-color:#fbfbfb;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.hedar-continar img {
+    height: 80%;
+}
+
+.hedar-continar a {
+    padding-left: 36px;
+    color: rgb(20, 18, 18);
+    text-decoration: none;
+}
+.hedar-continar a:hover{
+    color: orange;
+}
